@@ -15,9 +15,9 @@ spec:
       containers:
         - name: backend
 <<<<<<< Updated upstream
-          image: 837126493345.dkr.ecr.ap-northeast-2.amazonaws.com/goormthon-2/backend:build-9
+          image: 837126493345.dkr.ecr.ap-northeast-2.amazonaws.com/goormthon-1/backend:build-3
 =======
-          image: 837126493345.dkr.ecr.ap-northeast-2.amazonaws.com/goormthon-1/backend:build-8
+          image: 837126493345.dkr.ecr.ap-northeast-2.amazonaws.com/goormthon-1/backend:build-3
 >>>>>>> Stashed changes
           ports:
             - containerPort: 8080
