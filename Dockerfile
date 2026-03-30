@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --omit=dev
 COPY . .
-EXPOSE ${PORT:-3000}
+EXPOSE ${PORT:-8080}
 CMD ["node", "index.js"]
